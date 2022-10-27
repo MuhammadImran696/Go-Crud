@@ -3,7 +3,7 @@ package db
 import (
 	"log"
 
-	"example.com/authProject/productService/pkg/models"
+	"example.com/authProject/companyService/pkg/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

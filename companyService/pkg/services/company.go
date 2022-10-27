@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"example.com/authProject/productService/pkg/db"
-	"example.com/authProject/productService/pkg/models"
-	pb "example.com/authProject/productService/pkg/pb"
+	"example.com/authProject/companyService/pkg/db"
+	"example.com/authProject/companyService/pkg/models"
+	pb "example.com/authProject/companyService/pkg/pb"
 	"github.com/google/uuid"
 )
 

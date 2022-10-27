@@ -5,10 +5,10 @@ import (
 	"log"
 	"net"
 
-	"example.com/authProject/productService/pkg/config"
-	"example.com/authProject/productService/pkg/db"
-	pb "example.com/authProject/productService/pkg/pb"
-	services "example.com/authProject/productService/pkg/services"
+	"example.com/authProject/companyService/pkg/config"
+	"example.com/authProject/companyService/pkg/db"
+	pb "example.com/authProject/companyService/pkg/pb"
+	services "example.com/authProject/companyService/pkg/services"
 	"google.golang.org/grpc"
 )
 
