@@ -65,7 +65,7 @@ curl --location --request DELETE 'http://localhost:3000/product' \
     "registered":false,
     "type":"private"
 }'
-########## Response
+######### Response
 `{
     "status": 201,
     "id": "f691a4e6-6ada-427c-98e8-83a1292634d3"
