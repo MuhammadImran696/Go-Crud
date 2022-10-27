@@ -44,8 +44,8 @@ PATCH    http://localhost:3000/product/id <br/>
 curl --location --request POST 'http://localhost:3000/auth/login' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "email":"sameer@gmail.com",
-    "password":"sameer"
+    "email":"imran@gmail.com",
+    "password":"imran"
 }'
 ####### Response
 `{
@@ -59,8 +59,8 @@ curl --location --request DELETE 'http://localhost:3000/product' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTgzOTg1MzksImlzcyI6ImF1dGhzZXJ2aWNlIiwiSWQiOjEsIkVtYWlsIjoic2FtZWVyQGdtYWlsLmNvbSJ9.JfcRU6W8awD0iZUyL_p0HNOqEL53rPVuk2rmE6mMFcY' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "name":"imran",
-    "description":"hi",
+    "name":"abc",
+    "description":"abc",
     "employees":67,
     "registered":false,
     "type":"private"
